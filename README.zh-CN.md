@@ -1,4 +1,4 @@
-# The Charts · Go 排行榜 API 草稿
+# Go 排行榜实验
 
 [English](README.md)
 
@@ -10,4 +10,4 @@
 | `GET /rank/:username` | 查询指定用户的排名。 |
 | `GET /rank` | 查看排行榜。 |
 
-[`main.go`](main.go) 是服务入口草稿。[`api/route.go`](api/route.go) 声明了 Gin 路由，并保留了注释中的处理逻辑草稿。当前代码尚未接入处理函数或 Redis，[`go.mod`](go.mod) 的模块路径与 `main.go` 中的导入路径也不一致。
+[`main.go`](main.go) 是服务入口。[`api/route.go`](api/route.go) 声明了 Gin 路由，注释里保留处理函数草稿。目前只有路由定义，处理函数和 Redis 接入仍在计划中。

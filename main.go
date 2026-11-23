@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/VINDA-98/The-Charts/api"
+	"github.com/VINDA-98/go-leaderboard-lab/api"
 	"log"
 )
 
