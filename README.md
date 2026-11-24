@@ -2,7 +2,7 @@
 
 [简体中文](README.zh-CN.md)
 
-A Go practice project that sketches an HTTP API for submitting scores and reading rankings. The intended design uses Redis for ranking data.
+An early Go API sketch for score submissions and ranking queries. The design calls for Redis as the ranking store.
 
 | Planned endpoint | Purpose |
 | --- | --- |
